@@ -18,7 +18,6 @@ public class OscProcess : MonoBehaviour
     void Start()
     {
         oscReceiver.Bind("/photo", TraiterMessagePhoto);
-
     }
 
     // Update is called once per frame
@@ -71,5 +70,5 @@ public class OscProcess : MonoBehaviour
         asteroidDodger.SetShipY(ajuste);
 
     }
-}
 
+}

@@ -654,7 +654,7 @@ MonoBehaviour:
   _localHost: 192.168.157.132
   _localPort: 7000
   _remoteHost: 127.0.0.1
-  _remotePort: 7000
+  _remotePort: 8000
   _useBundle: 0
 --- !u!114 &1193500740
 MonoBehaviour:
@@ -692,8 +692,8 @@ MonoBehaviour:
   asteroidDodger: {fileID: 617091141}
   potInMin: 0
   potInMax: 1023
-  potOutMin: 0
-  potOutMax: 1
+  potOutMin: 16.02
+  potOutMax: -10.78
 --- !u!4 &1193500742
 Transform:
   m_ObjectHideFlags: 0
